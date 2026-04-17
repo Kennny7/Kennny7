@@ -39,8 +39,8 @@ MLOps Engineer with a strong foundation across data engineering, machine learnin
 ---
 
 <p align="center">
-  <img height="132" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
-  <img height="132" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
-  <img height="132" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
+  <img height="131" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
+  <img height="131" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
+  <img height="131" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
 </p>
 
