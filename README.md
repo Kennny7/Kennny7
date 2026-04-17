@@ -16,16 +16,12 @@
 
 ---
 
-### [+]> Introduction
-
 MLOps Engineer with a strong foundation across data engineering, machine learning, and infrastructure automation. Experienced in building production‑ready pipelines, containerizing ML workflows, and implementing centralized observability for large‑scale systems. Comfortable at the intersection of data, models, and cloud infrastructure, delivering reliable, scalable, and automated solutions.
 
 ---
 
-### [+]> Technical Skills
-
 <details open>
-<summary><b>[+] Core Competencies</b></summary>
+<summary><strong>Core Competencies</strong></summary>
 <br>
 
 |Domain                      		| Technologies & Tools |  
@@ -40,3 +36,9 @@ MLOps Engineer with a strong foundation across data engineering, machine learnin
 
 </details>
 
+---
+
+<p align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true" />
+</p>
