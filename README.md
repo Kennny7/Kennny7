@@ -39,47 +39,47 @@ MLOps Engineer with a strong foundation across data engineering, machine learnin
 ---
 
 <p align="center">
-  <img height="130" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
-  <img height="130" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
-  <img height="130" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
+  <img height="124" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
+  <img height="124" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
+  <img height="124" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
 </p>
 
 ---
 
 <p align="center">
-  <img height="129" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
-  <img height="129" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
-  <img height="129" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
+  <img height="122" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
+  <img height="122" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
+  <img height="122" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
 </p>
 
 ---
 
 <p align="center">
-  <img height="128" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
-  <img height="128" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
-  <img height="128" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
+  <img height="120" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
+  <img height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
+  <img height="120" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
 </p>
 
 ---
 
 <p align="center">
-  <img height="127" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
-  <img height="127" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
-  <img height="127" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
+  <img height="118" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
+  <img height="118" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
+  <img height="118" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
 </p>
 
 ---
 
 <p align="center">
-  <img height="126" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
-  <img height="126" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
-  <img height="126" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
+  <img height="115" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
+  <img height="115" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
+  <img height="115" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
 </p>
 
 ---
 
 <p align="center">
-  <img height="125" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
-  <img height="125" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
-  <img height="125" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
+  <img height="100" src="https://github-readme-stats.vercel.app/api?username=Kennny7&show_icons=true&hide_border=true&theme=github_dark" />
+  <img height="100" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennny7&layout=compact&hide_border=true&theme=github_dark" />
+  <img height="100" src="https://streak-stats.demolab.com?user=Kennny7&theme=github-dark&hide_border=true" />
 </p>
