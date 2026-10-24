@@ -16,9 +16,11 @@
 
 ---
 
-AI and ML engineer, about three years in, working mostly on the parts of GenAI that sit below the demo. Retrieval pipelines that have to cite the regulation currently in force and not the one it replaced. Agent workflows that fail loudly instead of quietly. Data pipelines where a dropped record is a real problem and not a rounding error.
+AI/ML engineer, about three years in. Most of what I build is agentic. Multi agent orchestration with tool and function calling, MCP servers that expose real system capabilities to external hosts, and retrieval that has to stay correct when the source document was amended twice last year and the older version is a near perfect semantic match.
 
-I work mainly in Python and SQL. I deploy with Docker, Airflow, and MLflow. A lot of my time goes into Postgres, Milvus, and Neo4j, and lately into getting GPU vector indexes to behave.
+The engineering underneath is distributed. Containers spread across a LAN mesh, inference offloaded to whichever node has free VRAM, horizontal scaling when a single box runs out of memory, and a Postgres, Milvus, and Neo4j stack that stays consistent while it all moves.
+
+I self host almost everything. Kubernetes and K3s for orchestration, Tailscale and WireGuard for the network, Milvus and Neo4j and Postgres for storage, vLLM and Ollama for inference, MLflow for tracking. Cloud is where the client already lives, not where I start.
 
 ---
 
@@ -28,35 +30,18 @@ I work mainly in Python and SQL. I deploy with Docker, Airflow, and MLflow. A lo
 
 | Domain | Tools |
 |---------------------------|--------|
-| **Languages** | Python, SQL, Bash |
-| **Generative AI** | OpenAI, Azure OpenAI, Gemini, Claude, Llama, LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Google ADK, Hugging Face, prompt engineering, RAG, GraphRAG, LoRA fine tuning, model evaluation |
-| **Retrieval and Vector Stores** | Milvus (`GPU_CAGRA`, `GPU_IVF_FLAT`, `GPU_IVF_PQ`), Chroma, FAISS, Pinecone, pgvector, hybrid search, reranking, index tuning |
-| **Graph and Ontology** | Neo4j, Cypher, property graph modelling, ontology design, LLM assisted entity and relation extraction |
+| **Languages** | Python, SQL, Cypher, Bash |
+| **Agentic AI** | LangGraph, CrewAI, AutoGen, Google ADK, MCP (Model Context Protocol), tool and function calling, multi agent orchestration, human in the loop, agent memory, persona and memory isolation, skill and plugin registries, guardrails |
+| **Generative AI** | OpenAI, Azure OpenAI, Gemini, Claude, Llama, Hugging Face, Ollama, vLLM, LiteLLM, prompt engineering, LoRA and QLoRA, model evaluation |
+| **Retrieval and Vector Stores** | Milvus (`GPU_CAGRA`, `GPU_IVF_FLAT`, `GPU_IVF_PQ`), Chroma, FAISS, pgvector, hybrid search, reranking, index tuning |
+| **Graph and Ontology** | Neo4j, Cypher, property graph modelling, ontology design, LLM assisted entity and relation extraction, GraphRAG |
+| **Distributed Systems and Networking** | Kubernetes, K3s, Helm, Tailscale, Headscale, WireGuard, Netmaker, LAN mesh discovery, service discovery, gRPC, WebSocket, horizontal and vertical scaling, GPU aware scheduling, multi node clustering |
 | **Machine Learning** | scikit-learn, XGBoost, LightGBM, statsmodels, regression, classification, clustering, time series forecasting, SHAP |
-| **Deep Learning and NLP** | TensorFlow, Keras, PyTorch, BERT and sentence transformers, LSTM and GRU, spaCy, NLTK, OCR (Tesseract, EasyOCR), OpenCV |
-| **Data Engineering** | PySpark, Hadoop, Hive, Kafka, Airflow, dbt, Parquet, Avro, ETL and ELT, Great Expectations, medallion architecture |
-| **MLOps** | MLflow, Docker, Docker Compose, Kubernetes basics, Helm basics, GitHub Actions, Jenkins, Azure DevOps, model registry, drift monitoring |
-| **Cloud** | AWS (S3, Lambda, Glue, Athena, Bedrock, SNS, CloudWatch), Azure (Azure OpenAI, AI Foundry, ML Studio, Blob, Event Hubs, Azure SQL), GCP (Vertex AI, BigQuery basics) |
-| **Databases** | PostgreSQL (query tuning, indexing, pgBouncer, PL/pgSQL), MySQL, MongoDB, Neo4j, Milvus, Redis basics |
-| **Monitoring and Logging** | Prometheus, Grafana, ELK Stack, Kibana, CloudWatch, Azure Monitor |
-| **Visualization** | Streamlit, Power BI, Tableau, Plotly |
-
-</details>
-
----
-
-<details open>
-<summary><strong>What I have built</strong></summary>
-<br>
-
-**Thanatos** (personal). A local first multi agent engine. FastAPI backend, Flutter client, and four database engines running under one Docker supervisor: Postgres for state, MongoDB for transcripts, Milvus for vectors, Neo4j for the knowledge graph. Agents can offload work to other machines on a LAN mesh, memory is RAG backed, and every action goes into a tamper evident audit log.
-
-**Maritime Knowledge Cluster** (C-DAC). A GraphRAG assistant over maritime regulations. Hybrid retrieval combining Milvus GPU vector search with k hop expansion over a Neo4j ontology, so answers cite the regulation currently in force and can trace its amendment chain. LangGraph and CrewAI handle the agent layer.
-
-**LRIT** (C-DAC). AIS ingestion plus two models on top. A tree based classifier for malformed and spoofed records, and a GRU route prediction model evaluated on ADE and FDE.
-
-**NFHS** (C-DAC). PySpark ingestion and validation for the National Family Health Survey, with dashboards for the Ministry of Health.
-
-**CotBoz** (C-DAC). Backend for a cotton and bale procurement platform, including validation and reconciliation pipelines.
+| **Deep Learning and NLP** | PyTorch, TensorFlow, Keras, BERT and sentence transformers, LSTM and GRU, spaCy, NLTK, OCR (Tesseract, EasyOCR), OpenCV |
+| **Data Engineering** | PySpark, Kafka, Parquet, Avro, Delta Lake, dbt, Great Expectations, medallion architecture, change data capture |
+| **MLOps and Observability** | MLflow, model registry, drift monitoring, Prometheus, Grafana, ELK Stack, Langfuse, Argo Workflows, Kestra, GitHub Actions, Jenkins |
+| **Databases and Storage** | PostgreSQL (query tuning, indexing, pgBouncer, PL/pgSQL), MySQL, MongoDB, Neo4j, Milvus, Redis, MinIO |
+| **Cloud** | AWS (S3, Lambda, Bedrock), Azure (Azure OpenAI, AI Foundry), GCP (Vertex AI basics) |
+| **Visualization** | Streamlit, Plotly, Power BI, Tableau |
 
 </details>
