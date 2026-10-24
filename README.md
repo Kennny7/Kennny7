@@ -16,7 +16,7 @@
 
 ---
 
-AI/ML engineer, about three years in. Most of what I build is agentic. Multi agent orchestration with tool and function calling, MCP servers that expose real system capabilities to external hosts, and retrieval that has to stay correct when the source document was amended twice last year and the older version is a near perfect semantic match.
+AI/ML engineer, about three years in. Most of what I build nowdays is agentic. Multi agent orchestration with tool and function calling, MCP servers that expose real system capabilities to external hosts, and retrieval that has to stay correct when the source document was amended twice last year and the older version is a near perfect semantic match.
 
 The engineering underneath is distributed. Containers spread across a LAN mesh, inference offloaded to whichever node has free VRAM, horizontal scaling when a single box runs out of memory, and a Postgres, Milvus, and Neo4j stack that stays consistent while it all moves.
 
